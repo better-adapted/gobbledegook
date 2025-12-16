@@ -492,7 +492,7 @@ The following is the output from a reference tool used to connect to the `standa
 
 # Quick-start for the impatient
 
-NOTE for glib-2.0 errors on raspberry pi - 'sudo apt -y install --no-install-recommends libglib2.0-dev'
+NOTE for glib-2.0 errors on raspberry pi - 'sudo apt -y install --no-install-recommends libglib2.0-dev' AND 'sudo apt-get install libbluetooth-dev'
 
 **Build** with `./configure && make`. This will build `libggk.a` then compile `standalone.cpp` into a program that links with `libggk.a`.
 
