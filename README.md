@@ -492,6 +492,8 @@ The following is the output from a reference tool used to connect to the `standa
 
 # Quick-start for the impatient
 
+NOTE for glib-2.0 errors on raspberry pi - 'sudo apt -y install --no-install-recommends libglib2.0-dev'
+
 **Build** with `./configure && make`. This will build `libggk.a` then compile `standalone.cpp` into a program that links with `libggk.a`.
 
 **Run** `sudo ./src/standalone -d`. This will require your machine to be setup correctly with `BlueZ` and working BLE hardware. Don't forget the `sudo`; you'll need it unless you configure the appropriate permissions for your user to access to D-Bus and the HCI socket. Options are: `-e` (errors-only output), `-v` (verbose output), `-d` (debug output)
